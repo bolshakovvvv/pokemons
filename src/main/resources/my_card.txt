@@ -1,0 +1,12 @@
+Stage1
+PikachuV
+200
+Lightning
+C:\Users\vladt\IdeaProjects\untitled38\src\main\resources\Raichu.txt
+1/Tail Whap/20,2L/Thunderbolt/100
+Fighting
+-
+1
+Fusion Strike
+E
+Иванов/Иван/Иванович/БСБО-01-23
