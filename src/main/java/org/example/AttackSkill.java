@@ -1,5 +1,7 @@
 package org.example;
 
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
@@ -20,6 +22,21 @@ public class AttackSkill implements Serializable {
         this.cost = cost;
         this.name = name;
         this.damage = damage;
+    }
+
+    public AttackSkill() {
+    }
+
+    @JsonCreator
+    public AttackSkill(
+            @JsonProperty("cost") String cost,
+            @JsonProperty("name") String name,
+            @JsonProperty("damage") int damage,
+            @JsonProperty("description") String description) {
+        this.cost = cost;
+        this.name = name;
+        this.damage = damage;
+        this.description = description;
     }
 
     @Override

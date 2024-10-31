@@ -25,6 +25,7 @@ public class Card implements Serializable {
     String gameSet;
     char regulationMark;
     Student pokemonOwner;
+    String number;
 
     public String toString(){
         return "{\n" + " pokemonStage = " + pokemonStage + "\n" +
@@ -38,7 +39,8 @@ public class Card implements Serializable {
                 " retreatCost = " + retreatCost + "\n" +
                 " gameSet = " + gameSet + "\n" +
                 " regulationMark = " + regulationMark + "\n" +
-                " pokemonOwner = " + pokemonOwner + "\n}";
+                " pokemonOwner = " + pokemonOwner + "\n" +
+                " number = " + number + "\n }";
     }
 
 }

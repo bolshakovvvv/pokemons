@@ -1,7 +1,7 @@
 package org.example;
 
 
-enum PokemonStage {
+public enum PokemonStage {
 
     BASIC,
     STAGE1,

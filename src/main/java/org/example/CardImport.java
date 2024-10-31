@@ -76,9 +76,11 @@ public class CardImport {
             student = new Student(tokens[1], tokens[0], tokens[2], tokens[3]);
         }
 
+        String number = reader.readLine();
+
         reader.close();
         return new Card(stage, name, hp, pokemonType, card, attackSkillList, weaknessType, resistanceType,
-                cost, setName, regulationMark, student);
+                cost, setName, regulationMark, student, number);
     }
 
     public Card loadCard(String filename) {
